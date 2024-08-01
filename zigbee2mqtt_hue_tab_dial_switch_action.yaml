@@ -180,6 +180,19 @@ action:
       - choose:
           - conditions:
               - condition: template
+                value_template: "{{ trigger.payload_json.action is match('^dial_rotate_') }}"
+            sequence:
+              - choose:
+                  - conditions:
+                      - condition: template
+                        value_template: "{{ trigger.payload_json.action is match('^dial_rotate_left_') }}"
+                    sequence: !input rotate_counter_clockwise
+                  - conditions:
+                      - condition: template
+                        value_template: "{{ trigger.payload_json.action is match('^dial_rotate_right_') }}"
+                    sequence: !input rotate_clockwise
+          - conditions:
+              - condition: template
                 value_template: "{{ trigger.payload_json.action == 'button_1_press_release' }}"
             sequence: !input button_1_single_press
           - conditions:
@@ -210,16 +223,3 @@ action:
               - condition: template
                 value_template: "{{ trigger.payload_json.action == 'button_4_hold' }}"
             sequence: !input button_4_hold
-          - conditions:
-              - condition: template
-                value_template: "trigger.payload_json.action is match('^dial_rotate_') }}"
-            sequence:
-              - choose:
-                  - conditions:
-                      - condition: template
-                        value_template: "{{ trigger.payload_json.action is match('^dial_rotate_left_') }}"
-                    sequence: !input rotate_counter_clockwise
-                  - conditions:
-                      - condition: template
-                        value_template: "{{ trigger.payload_json.action is match('^dial_rotate_right_') }}"
-                    sequence: !input rotate_clockwise
