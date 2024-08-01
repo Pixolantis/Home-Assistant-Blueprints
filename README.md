@@ -6,7 +6,8 @@ Own and third party Blueprints as Backup
 **Copyright:** [golles](https://github.com/golles/Home-Assistant-Blueprints/blob/main/zigbee2mqtt_hue_smart_button_press_and_hold_actions.yaml)
 
 ### Zigbee2MQTT - Philips Hue Tap Dial Switch
-**Copyright:** [smarthomegeeks.io]([https://github.com/golles/Home-Assistant-Blueprints/blob/main/zigbee2mqtt_hue_smart_button_press_and_hold_actions.yaml](https://smarthomegeeks.io/hue-tap-dial-switch/))
+**Copyright:** [smarthomegeeks.io](https://smarthomegeeks.io/hue-tap-dial-switch/)
+
 **Instructions**
 ```
 Create the two helpers in the Blueprint
