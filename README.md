@@ -18,11 +18,11 @@ Regex pattern: [1-4]
 entity ID: input_text.philips_hue_dial_switch_myroom_last_pressed
 
 Create the two helpers in the Blueprint
-Name: Philips Hue Dial Switch MyRoom - Counter
-Icon: mdi:knob
-Minimum lenght: 0
-Maximum lenght: 5
-Initial value: 0
+Name: Philips Hue Dial Switch MyRoom - Counter 
+Icon: mdi:knob 
+Minimum lenght: 0 
+Maximum lenght: 5 
+Initial value: 0 
 Step size: 1
 Restore the last known value when Home Assistant starts: no
 entity ID: input_text.philips_hue_dial_switch_myroom_counter
