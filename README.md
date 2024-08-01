@@ -6,6 +6,6 @@ Own and third party Blueprints as Backup
 **Zigbee2MQTT - Philips Hue smart button**
 
 Copyright: [golles](https://github.com/golles/Home-Assistant-Blueprints/blob/main/zigbee2mqtt_hue_smart_button_press_and_hold_actions.yaml)
-# A first-level heading
+
 ## A second-level heading
 ### A third-level heading
