@@ -30,3 +30,6 @@ Step size: 1
 Restore the last known value when Home Assistant starts: no
 entity ID: input_text.philips_hue_dial_switch_myroom_counter
 ```
+
+### Check power sensor and do something
+**Copyright:** [sbyx](https://gist.githubusercontent.com/sbyx/6d8344d3575c9865657ac51915684696/raw/e5de83ad51d8f7eb6c0bc74dd8a45c010638453b/notify-or-do-something-when-an-appliance-like-a-dishwasher-or-washing-machine-finishes.yaml)
