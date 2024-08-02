@@ -1,5 +1,5 @@
 blueprint:
-  name: Appliance has finished
+  name: Check power sensor and do something
   description: Check power sensor and do something
   domain: automation
   input:
